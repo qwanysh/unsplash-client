@@ -1,0 +1,25 @@
+.root {
+  display: inline-grid;
+  grid-auto-flow: column;
+  grid-gap: 18px;
+  text-decoration: none;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+}
+
+.text {
+  display: none;
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+@media screen and (min-width: 700px) {
+  .text {
+    display: inline;
+  }
+}
