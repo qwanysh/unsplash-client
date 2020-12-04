@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/unsplash-client/static/css/main.9da6842e.chunk.css",
+    "main.js": "/unsplash-client/static/js/main.d965fa30.chunk.js",
+    "main.js.map": "/unsplash-client/static/js/main.d965fa30.chunk.js.map",
+    "runtime-main.js": "/unsplash-client/static/js/runtime-main.35a46d3e.js",
+    "runtime-main.js.map": "/unsplash-client/static/js/runtime-main.35a46d3e.js.map",
+    "static/js/2.c7555184.chunk.js": "/unsplash-client/static/js/2.c7555184.chunk.js",
+    "static/js/2.c7555184.chunk.js.map": "/unsplash-client/static/js/2.c7555184.chunk.js.map",
+    "index.html": "/unsplash-client/index.html",
+    "static/css/main.9da6842e.chunk.css.map": "/unsplash-client/static/css/main.9da6842e.chunk.css.map",
+    "static/js/2.c7555184.chunk.js.LICENSE.txt": "/unsplash-client/static/js/2.c7555184.chunk.js.LICENSE.txt",
+    "static/media/heart.babaf3d3.svg": "/unsplash-client/static/media/heart.babaf3d3.svg",
+    "static/media/history.b91ce962.svg": "/unsplash-client/static/media/history.b91ce962.svg",
+    "static/media/logo.d576ee17.svg": "/unsplash-client/static/media/logo.d576ee17.svg",
+    "static/media/search.ea04470f.svg": "/unsplash-client/static/media/search.ea04470f.svg",
+    "static/media/index.css": "/unsplash-client/static/media/sf-ui-display-ultralight-58646b19bf205.9a5c81a8.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.35a46d3e.js",
+    "static/js/2.c7555184.chunk.js",
+    "static/css/main.9da6842e.chunk.css",
+    "static/js/main.d965fa30.chunk.js"
+  ]
+}
