@@ -1,7 +1,11 @@
 import styles from './Container.module.css';
 
-const Container = ({ children }) => {
-  return <div className={styles.root}>{children}</div>;
+const Container = ({ maxWidth, children }) => {
+  return (
+    <div className={styles.root} style={{ maxWidth: `${maxWidth}px` }}>
+      {children}
+    </div>
+  );
 };
 
 export default Container;

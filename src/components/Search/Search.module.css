@@ -1,0 +1,46 @@
+.root {
+  margin-top: 40px;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  /* transform: scaleY(0); */
+  /* overflow: hidden; */
+  /* transition: margin 0.2s ease-in-out, transform 0.2s ease-in-out; */
+}
+
+.input {
+  max-width: 700px;
+  align-self: center;
+  font-size: 36px;
+  line-height: 1.2;
+  color: white;
+  text-align: center;
+  border: none;
+  background: none;
+}
+
+@media screen and (min-width: 700px) {
+  .input {
+    font-size: 72px;
+  }
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input::placeholder {
+  color: #bdbdbd;
+}
+
+.divider {
+  display: block;
+  height: 1px;
+  margin: 14px 0;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
+}

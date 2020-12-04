@@ -1,10 +1,14 @@
-import Header from './Header/Header';
+import Header from '../../containers/Header/Header';
+import useScrollTop from '../../hooks/useScrollTop';
 
 const Layout = ({ children }) => {
+  const scrollTop = useScrollTop();
+
   return (
     <>
-      <Header />
+      <Header expanded={scrollTop} />
       {children}
+      <div style={{ minHeight: '200vh', background: 'darkgray' }} />
     </>
   );
 };

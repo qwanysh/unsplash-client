@@ -1,0 +1,27 @@
+.root {
+  background: black;
+  padding: 19px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: padding 0.3s ease-in-out;
+}
+
+.root--expanded {
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
+@media screen and (min-width: 700px) {
+  .root--expanded {
+    padding-top: 83px;
+    padding-bottom: 83px;
+  }
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
